@@ -4,10 +4,10 @@ class Database {
     private $pdo;
 
     private function __construct() {
-        $host = 'localhost';
-        $db   = 'qltv';
-        $user = 'root';
-        $pass = '';
+        $host = 'qltv-db.cpwo840s438x.us-east-1.rds.amazonaws.com';
+        $db   = 'qltvdb';
+        $user = 'admin';
+        $pass = 'Luuthuyvotinh20';
         $charset = 'utf8';
 
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
